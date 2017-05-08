@@ -11,7 +11,7 @@ function MiembroSquad(nombre,apellido,edad,id,hobbie1,hobbie2,hobbie3){
     this.boton = "<button id='" + this.id + "' onclick='" /*+ test()*/ + "'>Dejar Comentario</button>"; //boton dejar comentario
 }
 
-//aca no he hecho nada
+
 function Comentario(id_miembro,comentario){
     this.id_miembro = id_miembro;
     this.comentario = comentario;
